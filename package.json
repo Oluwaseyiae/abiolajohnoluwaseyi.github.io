@@ -1,0 +1,15 @@
+{
+  "name": "abiola-john-oluwaseyi-portfolio-",
+  "version": "1.0.0",
+  "description": "My official portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/main.css -o ./src/style.css",
+    "watch": "npx tailwindcss -i ./src/main.css -o ./src/style.css --watch"
+  },
+  "author": "Abiola John Oluwaseyi",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}

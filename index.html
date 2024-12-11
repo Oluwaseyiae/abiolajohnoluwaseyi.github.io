@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | My Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body class="font-custom">
+
+    <!-- Navbar Area Start -->
+    <nav id="desktop-nav" class="justify-around items-center h-[17vh] hidden lg:flex">
+        <div class="text-[2rem] cursor-pointer font-bold"><a href="index.html">Oluwaseyi</a></div>
+
+        <div>
+            <ul class="nav-links gap-[2rem] list-none text-[1.5rem] flex">
+                <li><a href="#about"
+                        class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">About</a>
+                </li>
+                <li><a href="#experience"
+                        class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Experience</a>
+                </li>
+                <li><a href="#projects"
+                        class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Projects</a>
+                </li>
+                <li><a href="#contact"
+                        class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav" class="justify-around items-center py-3 flex lg:hidden">
+        <div class="text-[2rem] cursor-pointer font-bold"><a href="index.html">Oluwaseyi</a></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Area End -->
+
+    <!-- Hero Area Start -->
+    <section id="profile" class="h-[100vh] lg:h-[80vh] flex justify-center g-[5rem]">
+        <div class="block lg:flex mt-[5rem] lg:mt-[8rem]">
+            <div class="hidden lg:flex h-[400px] w-[400px] mx-auto">
+                <img src="assets/img/profile-pic.png" class=" mx-auto">
+            </div>
+            <div class="items-center text-center">
+                <p class="font-bold  text-clip text-[1.3rem] mb-[1rem]">Hello, I'm</p>
+                <h1 class="text-center font-bold text-3xl md:text-[2.5rem]  lg:text-[3rem]">Abiola John Oluwaseyi</h1>
+                <p class="font-bold mb-10 lg:mb-5 text-xl md:text-2xl lg:text-[2rem] ">Machine Learning Engineer</p>
+
+                <div class="flex justify-center mt-[1rem] g-[1rem]">
+                    <a class="py-3 px-5 border-2 border-black rounded-full font-semibold mx-3 cursor-pointer hover:bg-black hover:text-white"
+                        href="assets/abiola-john-oluwaseyi.pdf">Download Resume</a>
+
+                    <a class="py-3 px-5 bg-black text-white border-2 rounded-full shadow-md font-semibold mx-3 cursor-pointer hover:bg-darkGray"
+                        href="#contact">Contact</a>
+                </div>
+
+                <div class="flex justify-center mt-[1rem] g-[1rem]">
+
+                    <a href="https://www.linkedin.com/in/abiola-john-oluwaseyi-b65336234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVDhFY14ZTXqHZd2j4uuTMw%3D%3D"
+                        target="_blank"><img src="assets/img/linkedin.png"
+                            class="w-10 lg:w-12 mx-3 cursor-pointer "></a>
+                    <a href="https://github.com/Oluwaseyiae" target="_blank"><img src="assets/img/github.png"
+                            class="w-10 lg:w-12  mx-3 cursor-pointer "></a>
+
+                </div>
+            </div>
+            <div class="flex lg:hidden  h-[400px] w-[400px] mt-8 lg:mt-0  lg:mx-auto">
+                <img src="assets/img/profile-pic.png" class=" mx-auto">
+            </div>
+
+        </div>
+    </section>
+    <!-- Hero Area End -->
+
+    <!-- About Area Start -->
+    <section id="about" class="relative h-[90vh] mx-auto px-[20px] md:px-[40px] lg:px-[100px] py-24">
+
+        <!-- Heading Section -->
+        <div class="text-center">
+            <p class="text-[1rem] font-semibold">Get To Know More</p>
+            <h1 class="font-bold text-[2.5rem] lg:text-[3rem]">About Me</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="flex flex-col gap-[4rem] items-center pt-[2rem] sm:pt-[4rem] md:flex-col lg:flex-row">
+            <!-- About Picture (Image on the left for large screens, top for medium screens) -->
+            <div class="h-[300px] sm:h-[400px] w-full sm:w-[400px] flex-shrink-0">
+                <img src="assets/img/about-pic.png" class="rounded-2xl w-full h-auto">
+            </div>
+
+            <!-- Experience and Education Cards (Text on the right for large screens, below for medium screens) -->
+            <div class="flex flex-col justify-center flex-1 w-full px-4 sm:px-0">
+                <div class="flex flex-col md:flex-row gap-[2rem] mb-[2rem] mt-[2rem] w-full">
+                    <div
+                        class="flex-1 py-[1.5rem] px-[2.3rem] bg-white rounded-[2rem] border border-gray-600 text-center">
+                        <img src="assets/img/experience.png" class="w-12 mx-auto">
+                        <h1 class="text-[1.75rem] font-bold">Experience</h1>
+                        <p class="text-[1.2rem] font-semibold">1+ years <br> Machine Learning Engineer</p>
+                    </div>
+                    <div
+                        class="flex-1 py-[1.5rem] px-[2.3rem] bg-white rounded-[2rem] border border-gray-600 text-center">
+                        <img src="assets/img/education.png" class="w-12 mx-auto">
+                        <h1 class="text-[1.75rem] font-bold">Education</h1>
+                        <p class="text-[1.2rem] font-semibold">B.Tech. Bachelors Degree</p>
+                    </div>
+                </div>
+
+                <!-- Description Text -->
+                <div class="w-full px-4 sm:px-0">
+                    <p class="text-[1rem] sm:text-[1.1rem] md:text-[1.2rem]">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus unde a, exercitationem obcaecati
+                        ullam, dolorem repellat molestias veritatis, voluptate quaerat doloremque. Illo ipsum corrupti
+                        veniam commodi optio possimus accusantium dignissimos?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, incidunt iusto? Quasi
+                        blanditiis ratione facere voluptate possimus dolorem necessitatibus voluptatibus nobis
+                        asperiores soluta, fugiat neque hic est, commodi dolores itaque.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Arrow -->
+        <a href="#experience"
+            class="absolute bottom-[2.5rem] right-[1rem] sm:right-[2rem] md:right-[3rem] lg:right-[5rem]">
+            <img src="assets/img/arrow.png" class="w-10 md:w-12" alt="Arrow to contact section">
+        </a>
+
+    </section>
+
+
+    <!-- About Area End -->
+
+    <!-- Experience Area Start -->
+    <section id="experience" class="relative h-[90vh] mx-auto px-[20px] md:px-[40px] lg:px-[100px] py-24">
+        <div class="text-center">
+            <p class="text-[1rem] font-semibold">Explore My</p>
+            <h1 class="font-bold text-[2.5rem] lg:text-[3rem]">Experience</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[2.5rem] pt-[4rem]">
+            <!-- First div -->
+            <div class="p-6 rounded-[2rem] border border-gray-600">
+                <h2 class="font-bold text-[1.75rem] mb-[1rem]">Programming Languages</h2>
+                <!-- Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Article 1 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Python</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Java</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">SQL</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Second div -->
+            <div class="p-6 rounded-[2rem] border border-gray-600">
+                <h2 class="font-bold text-[1.75rem] mb-[1rem]">Data Visualization Tools</h2>
+                <!-- Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Article 1 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Matplotlib</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Seaborn</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Tabulea</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Third div -->
+            <div class="p-6 rounded-[2rem] border border-gray-600">
+                <h2 class="font-bold text-[1.75rem] mb-[1rem]">Machine Learning Libraries</h2>
+                <!-- Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Article 1 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Scikit Learn</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Tensorflow</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">PyTorch</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Fourth div -->
+            <div class="p-6 rounded-[2rem] border border-gray-600">
+                <h2 class="font-bold text-[1.75rem] mb-[1rem]">Big Data</h2>
+                <!-- Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Article 1 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Hadoop</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Spark</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="flex items-center gap-[1rem]">
+                        <img src="assets/img/checkmark.png" class="w-8">
+                        <div class="flex flex-col">
+                            <h3 class="font-medium text-lg">Hive</h3>
+                            <p class="text-gray-600 text-sm">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <a href="#projects"
+            class="absolute bottom-[2.5rem] right-[1rem] sm:right-[2rem] md:right-[3rem] lg:right-[5rem]">
+            <img src="assets/img/arrow.png" class="w-10 md:w-12" alt="Arrow to contact section">
+        </a>
+    </section>
+
+
+    <!-- Experience Area Start -->
+
+    <!-- Project Area Start -->
+    <section id="projects" class="relative mx-auto px-[20px] md:px-[40px] lg:px-[100px] py-24">
+        <div class="text-center mb-8">
+            <p class="text-[1rem] font-semibold">Browse My Recent</p>
+            <h1 class="font-bold text-[3rem]">Projects</h1>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-8">
+            <!-- Project 1 -->
+            <div class="p-8 flex-1 max-w-[450px] rounded-2xl text-center bg-[#FAFAFA] border border-[#A3A3A3]">
+                <div class="mb-4">
+                    <img src="./assets/img/project-1.png" alt="Project One" class="rounded-lg mx-auto" />
+                </div>
+                <h2 class="text-[2rem] font-bold text-black mb-4">Project One</h2>
+                <div class="flex justify-center gap-4">
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Github</a>
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="p-8 flex-1 max-w-[450px] rounded-2xl text-center bg-[#FAFAFA] border border-[#A3A3A3]">
+                <div class="mb-4">
+                    <img src="./assets/img/project-2.png" alt="Project Two" class="rounded-lg mx-auto" />
+                </div>
+                <h2 class="text-[2rem] font-bold text-black mb-4">Project Two</h2>
+                <div class="flex justify-center gap-4">
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Github</a>
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="p-8 flex-1 max-w-[450px] rounded-2xl text-center bg-[#FAFAFA] border border-[#A3A3A3]">
+                <div class="mb-4">
+                    <img src="./assets/img/project-3.png" alt="Project Three" class="rounded-lg mx-auto" />
+                </div>
+                <h2 class="text-[2rem] font-bold text-black mb-4">Project Three</h2>
+                <div class="flex justify-center gap-4">
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Github</a>
+                    <a class="py-3 px-8 border-2 border-black rounded-full font-semibold hover:bg-black hover:text-white"
+                        href="">Live Demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-[4rem]">
+            <a class="py-3 px-8 border border-black rounded-full hover:bg-gray-200 hover:text-black" href="">
+                See More
+            </a>
+        </div>
+        <a href="#contact"
+            class="absolute bottom-[2.5rem] right-[1rem] sm:right-[2rem] md:right-[3rem] lg:right-[5rem]">
+            <img src="assets/img/arrow.png" class="w-10 md:w-12" alt="Arrow to contact section">
+        </a>
+
+    </section>
+    <!-- Project Area End -->
+
+    <!-- Contact Area Start -->
+    <section id="contact"
+        class="relative flex flex-col justify-center mx-auto h-[70vh] px-[20px] md:px-[40px] lg:px-[100px] py-24">
+        <div class=" text-center mb-8">
+            <p class="text-[1rem] font-semibold">Get in Touch</p>
+            <h1 class="font-bold text-[2.5rem] lg:text-[3rem]">Contact Me</h1>
+        </div>
+
+        <div
+            class="flex md:flex-row sm:flex-col  justify-center rounded-[2rem] border border-black  p-[0.5rem] w-[80%] max-w-[600px] mx-auto">
+            <div class="inline-flex items-center md:justify-center gap-[0.5rem] m-[1rem]">
+                <img src="./assets/img/email.png" alt="Email icon" class="w-12 md:mx-auto" />
+                <p
+                    class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">
+                    <a href="mailto:oluwaseyi@gmail.com">oluwaseyiae@gmail.com</a>
+                </p>
+            </div>
+            <div class="inline-flex items-center md:justify-center gap-[0.5rem] m-[1rem]">
+                <img src="./assets/img/twitter.png" alt="LinkedIn icon" class="w-10 md:mx-auto" />
+                <p
+                    class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">
+                    <a href="https://x.com/oluwaseyipd
+                        ">X</a>
+                </p>
+            </div>
+
+            <div class="inline-flex items-center md:justify-center gap-[0.5rem] m-[1rem]">
+                <img src="./assets/img/linkedin.png" alt="LinkedIn icon" class="w-10 mmd:x-auto" />
+                <p
+                    class="text-black no-underline decoration-white  hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">
+                    <a
+                        href="https://www.linkedin.com/in/abiola-john-oluwaseyi-b65336234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYxNlBQNGQqOHu4aysPQwSw%3D%3D">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="h-[26vh] my-0 mx-[1rem]">
+        <nav class="flex flex-wrap justify-center items-center h-[17vh]">
+            <!-- Navigation links -->
+            <div class="nav-links-container">
+                <ul class="nav-links gap-6 list-none text-[1.5rem] flex flex-wrap justify-center">
+                    <li><a href="#about"
+                            class="text-black no-underline decoration-white hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">About</a>
+                    </li>
+                    <li><a href="#experience"
+                            class="text-black no-underline decoration-white hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Experience</a>
+                    </li>
+                    <li><a href="#projects"
+                            class="text-black no-underline decoration-white hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Projects</a>
+                    </li>
+                    <li><a href="#contact"
+                            class="text-black no-underline decoration-white hover:text-darkGray hover:underline hover:underline-offset-[1rem] hover:decoration-lightGray">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Copyright text -->
+        <p class="text-center mt-4 md:mt-0">Copyright &#169; 2024 Oluwaseyi. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Footer Area End -->
+
+    <!-- JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
