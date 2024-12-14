@@ -30,10 +30,10 @@ This portfolio website was built using:
 
 Feel free to get in touch with me for any collaborations, inquiries, or questions!
 
-- **Email**: [your-email@example.com](mailto:oluwaseyiae@example.com)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/abiola-john-oluwaseyi-b65336234)
-- **Twitter**: [@your-handle](https://x.com/oluwaseyipd)
-- **GitHub**: [github.com/your-username](https://github.com/oluwaseyiae)
+- **Email**: [oluwaseyiae@gmail.com](mailto:oluwaseyiae@gmail.com)
+- **LinkedIn**: [abiola-john-oluwaseyi](https://www.linkedin.com/in/abiola-john-oluwaseyi-b65336234)
+- **Twitter**: [@oluwaseyi](https://x.com/oluwaseyipd)
+- **GitHub**: [github.com/oluwaseyiae](https://github.com/oluwaseyiae)
 
 ## How to Run
 
