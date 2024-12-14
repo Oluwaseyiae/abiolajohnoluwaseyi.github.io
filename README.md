@@ -21,30 +21,19 @@ You can learn more about my **Experience** and **Education** in the About sectio
 This portfolio website was built using:
 
 - **HTML**: For the basic structure and content.
-- **CSS**: For styling and responsive design.
-- **Tailwind CSS**: For utility-first styling.
+- **Tailwind CSS**: For styling and responsive design.
 - **JavaScript**: For interactivity (e.g., scroll arrows).
 - **GitHub Pages**: For deployment.
 
-## Projects
-
-### 1. **Car Price Prediction using Linear Regression**
-- **Description**: A predictive model built to estimate car prices using linear regression.
-- **Technologies Used**: Python, Pandas, Scikit-learn.
-- **Link**: [GitHub Repository](#)
-
-### 2. **Portfolio Website**
-- **Description**: My personal portfolio website, showcasing my experience, skills, and projects.
-- **Technologies Used**: HTML, CSS, Tailwind CSS, JavaScript.
 
 ## Contact
 
 Feel free to get in touch with me for any collaborations, inquiries, or questions!
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **Twitter**: [@your-handle](https://twitter.com/your-handle)
-- **GitHub**: [github.com/your-username](https://github.com/your-username)
+- **Email**: [your-email@example.com](mailto:oluwaseyiae@example.com)
+- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/abiola-john-oluwaseyi-b65336234)
+- **Twitter**: [@your-handle](https://x.com/oluwaseyipd)
+- **GitHub**: [github.com/your-username](https://github.com/oluwaseyiae)
 
 ## How to Run
 
